@@ -18,11 +18,11 @@ Example:
 crec -r main.c
 ```
 
-The export part of CRE-C is more complex. It is mainly a shortcut for git. It commits and pushes your git repository, through arguments. The second argument is the commit message, and the third is the remote you want to push to.
+The export part of CRE-C is more complex. It is mainly a shortcut for git. It commits and pushes your git repository, through arguments. The second argument is the commit message, and the third is the remote you want to push to. The fourth argument is the branch you want to commit to.
 
 Example:
 ```bash
-crec -e "This is a commit message" origin
+crec -e "This is a commit message" origin main
 ```
 
 ## Dependencies

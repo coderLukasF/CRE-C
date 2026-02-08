@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
     snprintf(commit_command, sizeof(commit_command), "git commit -m \"%s\"", argv[2]);
 
     char push_command[256];
-    snprintf(push_command, sizeof(commit_command), "git push %s", argv[3]);
+    snprintf(push_command, sizeof(commit_command), "git push %s %s", argv[3], argv[4]);
 
 
     system("git add .");
