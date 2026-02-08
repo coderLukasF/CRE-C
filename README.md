@@ -8,21 +8,21 @@ The compile part of CRE-C is very simple. It is just a shorter way to run gcc (f
 
 Example:
 ```bash
-cde -c main.c
+crec -c main.c
 ```
 
 The run part of CRE-C is also simple. It compiles the program into $HOME/CDE/cache, runs the program, and removes it.
 
 Example:
 ```bash
-cde -r main.c
+crec -r main.c
 ```
 
 The export part of CRE-C is more complex. It is mainly a shortcut for git. It commits and pushes your git repository, through arguments. The second argument is the commit message, and the third is the remote you want to push to.
 
 Example:
 ```bash
-cde -e "This is a commit message" origin
+crec -e "This is a commit message" origin
 ```
 
 ## Dependencies
