@@ -1,0 +1,6 @@
+# Main binary file
+main
+
+# I use test_program.c and the binary to test out CRE-C
+test_program.c
+test_program
